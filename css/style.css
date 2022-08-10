@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/boxbackground.jpg);
+    size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gamezone{
+    /* border: 1px solid #6C2B7D; */
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+#score{
+    text-align: center;   
+    max-width: 150px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 40px;
+    color: #7ECA39;
+}
+
+#thongbao{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    max-width: 400px;
+    background-image: url(../img/theme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    width: 500px;
+    margin: 0px auto;
+    top: 200px;
+    opacity: 0;
+    border-radius: 15px;
+}
+
+.btn{
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    top : 85px;
+    border: none;
+    font-size: 18px;
+    background-color: #8F7BCB;
+    text-transform: uppercase;
+    border-radius: 7px;
+    color: #000;
+    text-align: center;
+}
+.btn {text-decoration: none}
+.btn:hover{
+    background-color: #B3B5F0;
+    transition-duration: 0.4s;
+}
+#thongbao a{
+   width: 100px;
+}
+
+#ketthuc{
+    border: 1px solid #6C2B7D;
+    position: absolute;
+    background-image: url(../img/ketthuc.png);
+    width: 900px;
+    height: 500px;
+    opacity: 0;
+    font-family: 'Dancing Script', cursive;
+    transition: 0.8s;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    color: #7ECA39;
+}
+#ketthuc:target{
+    position: absolute;
+    display: block;
+    opacity: 1;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    margin: 0px auto;
+    top: 89px;
+    z-index: 3;
+}
+#start{
+    position: absolute;
+    border: 1px solid;
+    left: 0px;
+    right: 0px;
+    width: 100px;
+    margin: 0px auto;
+    top: 110px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #D0A6D8;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI';
+    transition: 0.4s;
+    opacity: 1;
+}
+#start:target{
+    position: absolute;
+    opacity: 0;
+}
+
+#huongdan{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 450px;
+    margin: 0px auto;
+    top: 250px;
+    text-align: center;
+    color: #E3CBE1; 
+    font-size: 22px;
+    display: block;
+    opacity: 1;
+}
